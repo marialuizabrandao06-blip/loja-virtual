@@ -1,0 +1,32 @@
+.catalogo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .produto{
+    width: 250px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+  }
+  img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+  }
+  .preco{
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  button{
+    width: 90%;
+    height:40px;
+    background-color: blue;
+    color:aquamarine;
+    border:none;
+    border-radius: 8px;
+  }
